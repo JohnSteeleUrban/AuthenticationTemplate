@@ -1,10 +1,4 @@
-# AuthenticationTemplate
-Template using the old microsoft Simple Membership 
-======================================================
-There are back end admin pages for managing the users and their access that the new Microsoft Identity does not have.
-Here is a Webform template using the old tool with some new webform items and bootstrap.
-
-Before you compile:
+﻿Before you compile:
 
 (Step 6 can be done first)
 
