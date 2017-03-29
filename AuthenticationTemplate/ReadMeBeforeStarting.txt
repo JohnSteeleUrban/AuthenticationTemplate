@@ -5,9 +5,11 @@
 1. Set up a database with a sysAdmin rights in SQL management studio.
 2. Create a new database and assign the role to it.
 3. Point the connection string in the webconfig to this database.
-4. Start the application and register as a new user.  This will create the tables within the database.
-5. Once you have given your user some sort of 'Administrator' rights, fix the webconfig in the Admin=>Access folder to limit users.
-6. Rename the solution by following the below steps.
+4. Run the aspnet_regsql.exe command from the Developer Command Prompt under "programs=>Microsoft Visual Studio {version}=> Developer Command Prompt"
+5. Go through the wizard and choose the appropriate Server and Database. (This will install the needed SPROCs for Membership)
+6. Start the application and register as a new user.  This will create the tables within the database.
+7. Once you have given your user some sort of 'Administrator' rights, fix the webconfig in the Admin=>Access folder to limit users.
+8. Rename the solution by following the below steps.
 
 
 
